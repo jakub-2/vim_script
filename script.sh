@@ -11,4 +11,4 @@ fi
 curl -fLo ~/.vimrc https://raw.githubusercontent.com/jakub-2/vim_script/main/.vimrc
 
 vim -c 'PlugInstall|q'
-vim -c 'CocInstall coc-clangd|q'
+vim -c 'CocInstall coc-clangd'
